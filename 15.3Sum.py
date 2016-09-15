@@ -18,9 +18,6 @@ A solution set is:
   取相反数
   判断相反数是否在剩下的数组里 并且 该数字不在i之前的数组中
       输出三个数
-# 去重
-# [[-1, 0, 1], [-1, 2, -1], [0, 1, -1]]
-
 """
 
 
@@ -35,8 +32,8 @@ def three_sum(lst):
     return result
 
 if '__main__' == __name__:
-    lst = [-1, 0, 1, -1, 2, -4]
+
+    print '\n\n******************\n', __doc__, '\n******************\n'
+    #lst = [-1, 0, 1, -1, 2, -4]
+    lst = [int(n) for n in raw_input('Please input some numbers seperated by space ending with taping enter:\n').split(' ')]
     print three_sum(lst)
-
-
-
