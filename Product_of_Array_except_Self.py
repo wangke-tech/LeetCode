@@ -60,12 +60,3 @@ if '__main__' == __name__:
     lst = [int(n) for n in raw_input('Please input nums saperated by space,then tap enter.\nFor example: 3 5 6 1\n \n').split(' ')]
 
     main(lst)
-
-
-
-
-
-
-
-
-
